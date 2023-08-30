@@ -1,34 +1,35 @@
 .top-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    background-color: #6C584C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #6c584c;
 }
 
-.menu-button, .avatar-slot {
-    color: #F0EAD2;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.menu-button,
+.avatar-slot {
+  color: #f0ead2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .menu-button:before {
-    content: "≡"; /* simple hamburger icon */
-    font-size: 24px;
+  content: "≡"; /* simple hamburger icon */
+  font-size: 24px;
 }
 
 .avatar-slot {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: #F0EAD2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #f0ead2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center-icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
