@@ -1,0 +1,29 @@
+.mobile-burger-menu {
+    height: 12px;
+    position: relative;
+    width: 18px;
+  }
+  
+  .mobile-burger-menu .vector {
+    height: 2px;
+    left: -1px;
+    position: absolute;
+    top: 5px;
+    width: 20px;
+  }
+  
+  .mobile-burger-menu .img {
+    height: 2px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 20px;
+  }
+  
+  .mobile-burger-menu .vector-2 {
+    height: 2px;
+    left: -1px;
+    position: absolute;
+    top: 11px;
+    width: 20px;
+  }

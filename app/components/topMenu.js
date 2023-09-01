@@ -1,18 +1,18 @@
+'use client';
 import React from "react";
-import "./TopMenu.css";
+import "./style.css";
 
-function TopMenu(props) {
+export const TopMenu = () => {
   return (
-    <div className="top-menu">
-      <div className="menu-button" onClick={props.onMenuClick}></div>
-      <img
-        src={props.centerIconSrc}
-        alt="center icon"
-        className="center-icon"
-      />
-      <div className="avatar-slot"></div>
+    <div className="box">
+      <div className="group">
+        <img className="logo-eco-walking" alt="Logo eco walking" src="/img/logo-eco-walking-noir.png" />
+        <div className="photo-de-profil" />
+        {/* burger svg */}
+        <div className="burgerMenu">
+        <img className="vector" alt="Burger" src="/img/burger.svg" />
+        </div>
+      </div>
     </div>
   );
-}
-
-export default TopMenu;
+};

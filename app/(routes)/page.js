@@ -33,11 +33,12 @@ export default function Login() {
               </div>
             </div>
           </div>
+          {/* div 3 start */}
+        {activeTab === 0 ? (
           <div className="div-3">
             <div className="text-wrapper-3 center-text">S’inscrire avec ...</div>
-
             <div className="div-4">
-              <button className="bouton-connexion center-text">
+              <button className="div-wrapper center-text">
                 <div className="div-5">
                   <Image
                     className="google-icon-icons"
@@ -75,6 +76,35 @@ export default function Login() {
               </button>
             </div>
           </div>
+        ) : (
+          // basic inputs for Adresse e-mailm and Mot de passe
+          <div className="div-3">
+            <div className="div-4">
+              <div className="div-8">
+                <label className="text-wrapper-7">Adresse e-mail</label>
+                <div className="formulaire-nom-de-l">
+                  <input style={{backgroundColor: 'var(--pine-cone)'}} className="text-wrapper-8 center-text" placeholder="Entrez votre adresse e-mail" />
+                </div>
+              </div>
+              <div className="div-8">
+                <label className="text-wrapper-7">Mot de passe</label>
+                <div className="formulaire-nom-de-l">
+                  <input style={{backgroundColor: 'var(--pine-cone)'}} className="text-wrapper-8 center-text" placeholder="Entrez votre mot de passe" />
+                </div>
+              </div>
+              </div>
+              <div className="bouton-se-connecter">
+                <div className="text-wrapper-10 center-text"
+                style={{
+                  curson:"pointer"
+                }}
+                >Se connecter</div>
+              </div>
+            </div>
+          )
+
+          }
+          {/* div 3 end */}
           <p className="p">Ou s’inscrire avec une adresse e-mail</p>
           <div className="div-4">
             <div className="div-8">

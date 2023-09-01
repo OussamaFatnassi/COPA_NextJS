@@ -16,7 +16,6 @@
   height: 685px;
   overflow-y: scroll;
   position: relative;
-  top: 50px;
 }
 
 .frame .div {
@@ -24,7 +23,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 34px;
-  left: 30px;
+  left: 20px;
   padding: 0px 0px 30px;
   position: relative;
   top: 37px;
@@ -185,6 +184,11 @@
   height: 50px;
   position: relative;
   width: 330px;
+  /* center content */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 1em;
 }
 
 .frame .div-6 {
@@ -284,7 +288,7 @@
 }
 
 .frame .text-wrapper-8 {
-  color: #ffffff;
+  color: var(--albescent-white);
   font-family: "Urbanist-Regular", Helvetica;
   font-size: 12px;
   font-weight: 400;
